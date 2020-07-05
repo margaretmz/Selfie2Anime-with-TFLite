@@ -15,7 +15,7 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.mzm.sample.selfie2anime.MainActivity.Companion.getOutputDirectory
-import com.tflite.selfie2anime.R
+import com.mzm.sample.selfie2anime.R
 import kotlinx.android.synthetic.main.fragment_camera.*
 import java.io.File
 import java.io.FileOutputStream
@@ -33,7 +33,6 @@ class CameraFragment : Fragment() {
 
     private var preview: Preview? = null
     private var imageCapture: ImageCapture? = null
-    private var imageAnalyzer: ImageAnalysis? = null
     private var camera: Camera? = null
     private var bitmap: Bitmap? = null
 
@@ -114,7 +113,7 @@ class CameraFragment : Fragment() {
         )
 
         // Margaret: convert from ImageProxy to Bitmap then pass Bitmap for model inference
-        imageCapture?.takePicture(
+        imageCapture.takePicture(
             ContextCompat.getMainExecutor(requireContext()),
             object : ImageCapture.OnImageCapturedCallback() {
                 override fun onCaptureSuccess(image: ImageProxy) {
@@ -137,9 +136,6 @@ class CameraFragment : Fragment() {
                     findNavController().navigate(action)
                 }
 
-                override fun onError(exception: ImageCaptureException) {
-                    super.onError(exception)
-                }
             })
 
     }

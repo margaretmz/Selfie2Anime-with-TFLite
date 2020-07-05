@@ -9,12 +9,12 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
 import com.bumptech.glide.Glide
-import com.tflite.selfie2anime.R
-import com.tflite.selfie2anime.ml.Selfie2anime
+import com.mzm.sample.selfie2anime.R
 import kotlinx.android.synthetic.main.fragment_selfie2anime.*
 import kotlinx.coroutines.*
 import org.tensorflow.lite.support.image.TensorImage
 import java.io.File
+import com.mzm.sample.selfie2anime.ml.Selfie2anime
 
 /**
  * A simple [Fragment] subclass.
