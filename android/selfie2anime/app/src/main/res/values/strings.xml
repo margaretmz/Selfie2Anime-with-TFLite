@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">selfie2anime</string>
+    <string name="about">"Convert selfie to anime with a TensorFlow Lite model"</string>
+</resources>

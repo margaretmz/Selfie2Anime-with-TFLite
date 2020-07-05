@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/permissions_fragment">
+
+    <!-- 1. Check camera permission -->
+    <fragment
+        android:id="@+id/permissions_fragment"
+        android:name="com.mzm.sample.selfie2anime.fragments.PermissionsFragment"
+        android:label="PermissionsFragment"
+        tools:layout="@layout/fragment_camera">
+
+        <action
+            android:id="@+id/action_permissions_to_camera"
+            app:destination="@id/camera_fragment" />
+
+    </fragment>
+
+    <!-- 2. Launch camera and take a selfie -->
+    <!-- go to permissions fragment if needed -->
+    <!-- otherwise go to the selfie2anime screen to see the images-->
+    <fragment
+        android:id="@+id/camera_fragment"
+        android:name="com.mzm.sample.selfie2anime.fragments.CameraFragment"
+        android:label="CameraFragment"
+        tools:layout="@layout/fragment_camera">
+
+        <action
+            android:id="@+id/action_camera_to_selfie2anime"
+            app:destination="@id/selfie2anime_fragment" />
+
+        <action
+            android:id="@+id/action_camera_to_permissions"
+            app:destination="@id/permissions_fragment"
+            app:popUpTo="@id/camera_fragment"
+            app:popUpToInclusive="true"/>
+
+    </fragment>
+
+    <!-- 3. Run inference on selfie Bitmap and create output: an anime image -->
+    <!-- Display both selfie and anime images in UI -->
+    <fragment
+        android:id="@+id/selfie2anime_fragment"
+        android:name="com.mzm.sample.selfie2anime.fragments.Selfie2animeFragment"
+        android:label="Selfie2animeFragment">
+        <argument
+            android:name="root_dir"
+            app:argType="string" />
+    </fragment>
+
+</navigation>
