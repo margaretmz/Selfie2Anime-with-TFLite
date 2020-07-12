@@ -1,4 +1,4 @@
-# Copyright 2019 The TensorFlow Authors. All Rights Reserved.
+# Written by Margaret Maynard-Reid
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -6,11 +6,6 @@
 #
 #     http://www.apache.org/licenses/LICENSE-2.0
 #
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
 # ==============================================================================
 """Writes metadata for the selfie2anime model.
 
@@ -144,7 +139,7 @@ def populate_metadata(model_file):
 
   # Populates metadata for the model.
   model_file_basename = os.path.basename(model_file)
-  export_path = os.path.join(FLAGS.export_directory) #Margaret
+  export_path = os.path.join(FLAGS.export_directory, model_file_basename)
   tf.io.gfile.copy(model_file, export_path, overwrite=True)
 
   populator = MetadataPopulatorForGANModel(export_path) # Updated by Margaret

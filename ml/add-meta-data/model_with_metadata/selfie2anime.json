@@ -1,0 +1,77 @@
+{
+  "name": "Selfie2Anime",
+  "description": "Convert selfie to anime.",
+  "version": "v1",
+  "subgraph_metadata": [
+    {
+      "input_tensor_metadata": [
+        {
+          "name": "selfie_image",
+          "description": "The expected image is 256 x 256, with three channels (red, blue, and green) per pixel. Each value in the tensor is between 0 and 1.",
+          "content": {
+            "content_properties_type": "ImageProperties",
+            "content_properties": {
+              "color_space": "RGB"
+            }
+          },
+          "process_units": [
+            {
+              "options_type": "NormalizationOptions",
+              "options": {
+                "mean": [
+                  0.0
+                ],
+                "std": [
+                  255.0
+                ]
+              }
+            }
+          ],
+          "stats": {
+            "max": [
+              1.0
+            ],
+            "min": [
+              0.0
+            ]
+          }
+        }
+      ],
+      "output_tensor_metadata": [
+        {
+          "name": "anime_image",
+          "description": "Image styled.",
+          "content": {
+            "content_properties_type": "ImageProperties",
+            "content_properties": {
+              "color_space": "RGB"
+            }
+          },
+          "process_units": [
+            {
+              "options_type": "NormalizationOptions",
+              "options": {
+                "mean": [
+                  0.0
+                ],
+                "std": [
+                  0.003922
+                ]
+              }
+            }
+          ],
+          "stats": {
+            "max": [
+              1.0
+            ],
+            "min": [
+              0.0
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "author": "TensorFlow",
+  "license": "Apache License. Version 2.0 http://www.apache.org/licenses/LICENSE-2.0."
+}
