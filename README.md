@@ -15,4 +15,4 @@ This is the GitHub repo for an end-to-end tutorial from TFLite model conversion,
 |  |--selfie2anime                  // TFLite model on Androi app  
 ```
  
-Links to the three-part tutorial on Medium: Part 1 | Part 2 | Part 3.
+Links to the three-part tutorial on Medium: [Part 1](https://medium.com/@margaretmz/selfie2anime-with-tflite-part-1-overview-f97500800ffe) | [Part 2](https://medium.com/@margaretmz/selfie2anime-with-tflite-part-2-tflite-model-84002cf521dc) | [Part 3](https://medium.com/@margaretmz/selfie2anime-with-tflite-part-3-android-app-e47f8a2c92b2).
