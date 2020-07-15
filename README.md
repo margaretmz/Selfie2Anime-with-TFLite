@@ -10,7 +10,7 @@ Reviewers: [Khanh LeViet](https://twitter.com/khanhlvg) and [Hoi Lam](https://tw
 
 Acknowledgements: We would like to thank Khanh LeViet and Lu Wang (TensorFlow Lite team), Hoi Lam (Android ML), and Soonson Kwon (ML GDEs — Google Developers Experts Program), for their collaboration and continuous support.
 
-We used a Generative Adversarial Network (GAN) model proposed in this paper [Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation](https://arxiv.org/abs/1907.10830) (also known as **U-GAT-IT**). The paper provides two generators: one that converts a selfies to anime-style image and the other one from anime to selfie. Here we only implemented the Selfie2Anime model since it better resembles the real-world scenario.
+We used a Generative Adversarial Network (GAN) model proposed in this paper [Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation](https://arxiv.org/abs/1907.10830) (also known as **U-GAT-IT**). The paper provides two generators: one that converts a selfies to anime-style image and the other one from anime to selfie. Here we only implemented the Selfie2Anime model since it better resembles the real-world scenario. The GitHub repository of the paper is available [here](https://github.com/taki0112/UGATIT). 
 
 The repository is structured in the following way:
 
