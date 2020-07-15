@@ -1,6 +1,6 @@
 # Selfie2Anime on Android with TensorFlow Lite
 
-<center><img src='https://miro.medium.com/max/700/1*2xELpk3O-zTcuzCn1NUB0A.png')</img></center>
+<center><img src='https://miro.medium.com/max/700/1*CqpaYfiixTwnYsD0r_3oNw.png')</img></center>
 
 This is the GitHub repo for an end-to-end tutorial from TFLite model conversion, to deployment in form of an Android App. 
 
