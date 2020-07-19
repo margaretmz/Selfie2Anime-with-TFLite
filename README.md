@@ -21,7 +21,7 @@ This repository is structured in the following way:
 ```
 
 ## The Selfie2Anime model
-We used a Generative Adversarial Network (GAN) model proposed in this paper [Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation](https://arxiv.org/abs/1907.10830) (also known as **U-GAT-IT**). The paper provides two generators: one that converts a selfies to anime-style image and the other one from anime to selfie. Here we only implemented the Selfie2Anime model since it better resembles the real-world scenario. The GitHub repository of the paper is available [here](https://github.com/taki0112/UGATIT). 
+We used a Generative Adversarial Network (GAN) model proposed in this paper [Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation](https://arxiv.org/abs/1907.10830) (also known as **U-GAT-IT**). The paper provides two generators: one that converts a selfie to anime-style image and the other one from anime to selfie. Here we only implemented the Selfie2Anime model since it better resembles the real-world scenario. The GitHub repository of the paper is available [here](https://github.com/taki0112/UGATIT). 
 
 ## Citation
 The original authors of U-GAT-IT: Junho Kim, Minjae Kim, Hyeonwoo Kang, Kwanghee Lee.
