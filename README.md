@@ -7,7 +7,9 @@ This is the GitHub repo for an end-to-end tutorial from TFLite model conversion,
 **Authors**: (ML GDEs: Google Developer Experts for Machine Learning)  [Margaret Maynard-Reid](https://twitter.com/margaretmz) and [Sayak Paul](https://twitter.com/RisingSayak)   
 **Reviewers**: (Google TensorFlow team) [Khanh LeViet](https://twitter.com/khanhlvg) and [Hoi Lam](https://twitter.com/hoitab) 
 
-<br><div align="center"><img src='https://miro.medium.com/max/700/1*CqpaYfiixTwnYsD0r_3oNw.png')</img></div><br>
+<br>
+<div align="center"><img src='https://miro.medium.com/max/700/1*CqpaYfiixTwnYsD0r_3oNw.png')</img></div>
+<br>
 
 This repository is structured in the following way:
 
