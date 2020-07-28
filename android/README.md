@@ -29,6 +29,6 @@ Alternatively you could use the colab to add metadata to the .tflite file.
 * You will then see a screen with both the selfie and anime image.
 
 ## Download apk
-If you are not familar with building the app in Android and would like to just try out the app, please download the apk file from the [android/app/release/](/app/release/) folder.   
+If you are not familar with building the app in Android and would like to just try out the app, please download the apk file from the [android/app/release/](app/release/) folder.   
 
 Note: you will need to grant permission to install unknown apps from your Android device security settings. 
