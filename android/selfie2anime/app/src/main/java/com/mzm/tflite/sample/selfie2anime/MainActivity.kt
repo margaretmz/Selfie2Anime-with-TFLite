@@ -1,9 +1,9 @@
-package com.mzm.sample.selfie2anime
+package com.mzm.tflite.sample.selfie2anime
 
 import android.content.Context
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.FrameLayout
+import androidx.appcompat.app.AppCompatActivity
 import java.io.File
 
 /**

@@ -9,7 +9,7 @@
     <!-- 1. Check camera permission -->
     <fragment
         android:id="@+id/permissions_fragment"
-        android:name="com.mzm.sample.selfie2anime.fragments.PermissionsFragment"
+        android:name="com.mzm.tflite.sample.selfie2anime.fragments.PermissionsFragment"
         android:label="PermissionsFragment"
         tools:layout="@layout/fragment_camera">
 
@@ -24,7 +24,7 @@
     <!-- otherwise go to the selfie2anime screen to see the images-->
     <fragment
         android:id="@+id/camera_fragment"
-        android:name="com.mzm.sample.selfie2anime.fragments.CameraFragment"
+        android:name="com.mzm.tflite.sample.selfie2anime.fragments.CameraFragment"
         android:label="CameraFragment"
         tools:layout="@layout/fragment_camera">
 
@@ -44,7 +44,7 @@
     <!-- Display both selfie and anime images in UI -->
     <fragment
         android:id="@+id/selfie2anime_fragment"
-        android:name="com.mzm.sample.selfie2anime.fragments.Selfie2animeFragment"
+        android:name="com.mzm.tflite.sample.selfie2anime.fragments.Selfie2animeFragment"
         android:label="Selfie2animeFragment">
         <argument
             android:name="root_dir"

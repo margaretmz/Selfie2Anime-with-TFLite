@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/black"
-    tools:context="com.mzm.sample.selfie2anime.fragments.CameraFragment">
+    tools:context="com.mzm.tflite.sample.selfie2anime.fragments.CameraFragment">
 
     <androidx.camera.view.PreviewView
         android:id="@+id/viewFinder"

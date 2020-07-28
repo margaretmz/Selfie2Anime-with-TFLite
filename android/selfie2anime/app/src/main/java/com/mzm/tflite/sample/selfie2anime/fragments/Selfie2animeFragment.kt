@@ -1,4 +1,4 @@
-package com.mzm.sample.selfie2anime.fragments
+package com.mzm.tflite.sample.selfie2anime.fragments
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
@@ -9,12 +9,12 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
 import com.bumptech.glide.Glide
-import com.mzm.sample.selfie2anime.R
+import com.mzm.tflite.sample.selfie2anime.R
+import com.mzm.tflite.sample.selfie2anime.ml.Selfie2anime
 import kotlinx.android.synthetic.main.fragment_selfie2anime.*
 import kotlinx.coroutines.*
 import org.tensorflow.lite.support.image.TensorImage
 import java.io.File
-import com.mzm.sample.selfie2anime.ml.Selfie2anime
 
 /**
  * A simple [Fragment] subclass.

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mzm.sample.selfie2anime">
+    package="com.mzm.tflite.sample.selfie2anime">
     <!-- Make sure there is at least one camera -->
     <uses-feature android:name="android.hardware.camera.any" />
     <!-- Ask for camera permission -->
@@ -13,7 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.mzm.sample.selfie2anime.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

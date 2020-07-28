@@ -1,4 +1,4 @@
-package com.mzm.sample.selfie2anime.fragments
+package com.mzm.tflite.sample.selfie2anime.fragments
 
 import android.Manifest
 import android.content.Context
@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import android.widget.Toast
 import androidx.core.content.ContextCompat.checkSelfPermission
 import androidx.navigation.fragment.findNavController
-import com.mzm.sample.selfie2anime.R
+import com.mzm.tflite.sample.selfie2anime.R
 
 /**
  * A simple [Fragment] subclass that handles camera permission request

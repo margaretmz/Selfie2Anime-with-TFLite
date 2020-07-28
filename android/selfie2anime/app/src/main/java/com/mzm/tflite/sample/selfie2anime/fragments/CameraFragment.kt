@@ -1,4 +1,4 @@
-package com.mzm.sample.selfie2anime.fragments
+package com.mzm.tflite.sample.selfie2anime.fragments
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
@@ -14,8 +14,7 @@ import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.mzm.sample.selfie2anime.MainActivity.Companion.getOutputDirectory
-import com.mzm.sample.selfie2anime.R
+import com.mzm.tflite.sample.selfie2anime.MainActivity.Companion.getOutputDirectory
 import kotlinx.android.synthetic.main.fragment_camera.*
 import java.io.File
 import java.io.FileOutputStream
@@ -25,6 +24,7 @@ import java.text.SimpleDateFormat
 import java.util.*
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
+import com.mzm.tflite.sample.selfie2anime.R
 
 /**
  * A simple [Fragment] subclass that captures a photo with CameraX
