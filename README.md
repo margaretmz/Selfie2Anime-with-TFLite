@@ -7,7 +7,9 @@ This is the GitHub repo for an end-to-end tutorial from TFLite model conversion,
 **Authors**: (ML GDEs: Google Developer Experts for Machine Learning)  [Margaret Maynard-Reid](https://twitter.com/margaretmz) and [Sayak Paul](https://twitter.com/RisingSayak)   
 **Reviewers**: (Google TensorFlow team) [Khanh LeViet](https://twitter.com/khanhlvg) and [Hoi Lam](https://twitter.com/hoitab) 
 
-<center><img src='https://miro.medium.com/max/700/1*CqpaYfiixTwnYsD0r_3oNw.png')</img></center>
+<br>
+<div align="center"><img src='https://miro.medium.com/max/700/1*CqpaYfiixTwnYsD0r_3oNw.png')</img></div>
+<br>
 
 This repository is structured in the following way:
 
@@ -21,7 +23,7 @@ This repository is structured in the following way:
 ```
 
 ## The Selfie2Anime model
-We used a Generative Adversarial Network (GAN) model proposed in this paper [Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation](https://arxiv.org/abs/1907.10830) (also known as **U-GAT-IT**). The paper provides two generators: one that converts a selfies to anime-style image and the other one from anime to selfie. Here we only implemented the Selfie2Anime model since it better resembles the real-world scenario. The GitHub repository of the paper is available [here](https://github.com/taki0112/UGATIT). 
+We used a Generative Adversarial Network (GAN) model proposed in this paper [Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation](https://arxiv.org/abs/1907.10830) (also known as **U-GAT-IT**). The paper provides two generators: one that converts a selfie to anime-style image and the other one from anime to selfie. Here we only implemented the Selfie2Anime model since it better resembles the real-world scenario. The GitHub repository of the paper is available [here](https://github.com/taki0112/UGATIT). 
 
 ## Citation
 The original authors of U-GAT-IT: Junho Kim, Minjae Kim, Hyeonwoo Kang, Kwanghee Lee.
