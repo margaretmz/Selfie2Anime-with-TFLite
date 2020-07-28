@@ -1,6 +1,9 @@
 # Selfie2Anime with TensorFlow Lite
 
-This is the GitHub repo for an end-to-end tutorial from TFLite model conversion, to model deployment on an Android App. Links to the three-part tutorial on Medium: [Part 1](https://medium.com/@margaretmz/selfie2anime-with-tflite-part-1-overview-f97500800ffe) Overview | [Part 2](https://medium.com/@margaretmz/selfie2anime-with-tflite-part-2-tflite-model-84002cf521dc) TFLite model | [Part 3](https://medium.com/@margaretmz/selfie2anime-with-tflite-part-3-android-app-e47f8a2c92b2) Android app. 
+This is the GitHub repo for an end-to-end tutorial from TFLite model conversion, to model deployment on an Android App. Links to the three-part tutorial on Medium: 
+* [Part 1](https://medium.com/@margaretmz/selfie2anime-with-tflite-part-1-overview-f97500800ffe) Overview 
+* [Part 2](https://medium.com/@margaretmz/selfie2anime-with-tflite-part-2-tflite-model-84002cf521dc) TensorFlow Lite model  
+* [Part 3](https://medium.com/@margaretmz/selfie2anime-with-tflite-part-3-android-app-e47f8a2c92b2) Android app 
 
 **Selfie2Anime with TensorFlow Lite** is one of the many [End-to-End TensorFlow Lite Tutorials](https://github.com/ml-gde/e2e-tflite-tutorials). See the full list of TensorFlow Lite samples and learning resources on [awesome-tflite](https://github.com/margaretmz/awesome-tflite).
 
@@ -21,6 +24,9 @@ This repository is structured in the following way:
 |--android  
 |  |--selfie2anime                    // TFLite model on Androi app  
 ```
+The [ml](ml/) folder contains the model files, and the instructions on how to save the model, and convert it to selfe2anime.tflite, and add metadata to it via either command line or a Colab notebook.  
+
+The [android](android/) folder contains the Android source code and the instructions on how to build the Android app.
 
 ## The Selfie2Anime model
 We used a Generative Adversarial Network (GAN) model proposed in this paper [Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation](https://arxiv.org/abs/1907.10830) (also known as **U-GAT-IT**). The paper provides two generators: one that converts a selfie to anime-style image and the other one from anime to selfie. Here we only implemented the Selfie2Anime model since it better resembles the real-world scenario. The GitHub repository of the paper is available [here](https://github.com/taki0112/UGATIT). 
